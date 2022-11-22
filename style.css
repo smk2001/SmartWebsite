@@ -1,0 +1,577 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* main{
+  display: flex;
+  justify-content: center;
+  
+ 
+} */
+
+.header{
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    text-align: center;
+    width:500vw;
+    
+}
+
+.header h3{
+  color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+  /* display: inline-block; */
+  display: flex;
+}
+
+.header h3 span{
+  color:  lightseagreen;
+  padding: 5px 10px;
+  font-size: 40px;
+}
+
+.container-img{
+  /* display: block; */
+  /* display: flex;
+  display: inline; */
+  display: inline-block;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:rgb(214, 103, 12);
+    width: 500vw;
+    
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px  16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgb(241, 254, 0);
+    color: rgb(65, 6, 183);
+}
+
+.smallimg{
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  
+  
+}
+.simg{
+    margin: 0px 100px;
+    position: relative;
+    top: -240px;
+    text-align: center;
+
+}
+
+.column{
+    /* float: left; */
+    height: 255vh;
+    width: 150vw;
+    padding: 20px 20px;
+    border: 2px solid rgb(230, 245, 18);
+    
+    
+    
+}
+.row{
+  /* margin-top: 400px; */
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  position: relative;
+  top: -420px;
+  margin: 1vh 80vw;
+  
+  
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+      
+    }
+  }
+
+
+  .searchbar{
+   /* text-align: center; */
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   position: relative;
+   top: -1070px;
+  }
+
+  .searchbar .button3{
+   position: relative;
+   left: 350px;
+   text-align: center;
+   background-color: #5ff50e;
+   color: #2b94e5;
+   top: -108px;
+   border: 3px solid yellow;
+  }
+
+  .searchbar .button3:hover{
+    background-color:darkblue;
+    color: white;
+    border: 3px solid yellow;
+  }
+
+  .input1{
+
+    /* position: relative; */
+    font-size: large;
+    /* right: 90px; */
+    padding: 1rem;
+
+  }
+.img1{
+  width: 500vw;
+}
+    
+/* }
+.container{
+  position: relative;
+  width: 50%;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: aqua;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay{
+  bottom: 0;
+  height: 100%;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+
+
+ .direction{
+  position: relative;
+  top: -480px;
+  float: left;
+  
+ }
+ .button1{
+  position: relative;
+  top: -280px;
+  left: -140px;
+  border: 3px solid rgb(21, 121, 227);
+  background-color: rgb(43, 241, 8);
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .button1:hover{
+  background-color: red;
+  color: white;
+  border: 3px solid yellow;
+ }
+
+ .direction  h1{
+    position: relative;
+    left: 320px;
+    top: 80px;
+    font-size:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* left: 350px; */
+  
+ }
+
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.row .column::before {
+  content: '\201C';
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 120px;
+  opacity: 0.2;
+  background: transparent;
+  pointer-events: none;
+
+}
+.row .column::after {
+  content: '\201D';
+  position: absolute;
+  bottom: -10%;
+  right: 5%;
+  font-size: 120px;
+  opacity: 0.2;
+  background: transparent;
+  filter: invert(1);
+  pointer-events: none;
+}
+.row .column p {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.row.column h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 10%;
+  right: 10%;
+  font-size: 1.5rem;
+}
+.row .column:hover {
+  color: #f2f2f2;
+  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
+}
+.row .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  pointer-events: none;
+  width: 100%
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+.row .column:hover,
+.row .column:hover~.bg {
+  opacity: 1;
+  background: #e2a9e5;
+background: -moz-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: -webkit-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: linear-gradient(135deg, #e2a9e5 15%, #2b94e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
+}
+.quotes .box.box2:hover,
+.quotes .box.box2:hover~.bg {
+  opacity: 1;
+  background: #e2a9e5;
+background: -moz-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: -webkit-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: linear-gradient(135deg, #e2a9e5 15%, #2b94e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
+}
+.quotes .column:hover,
+.quotes .column:hover~.bg {
+  opacity: 1;
+  background: #e2a9e5;
+background: -moz-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: -webkit-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
+background: linear-gradient(135deg, #e2a9e5 15%, #2b94e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
+}
+
+
+
+/* ------------------------PHARMACY HTML-------------------- */
+
+.pharm{
+  display: flex;
+  justify-content: center;
+  
+}
+
+ .pharmh3{
+ 
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  font-size: 40px;
+  font-family: cursive;
+
+}
+
+.pharm1{
+  height: 450px;
+  width: 350px;
+  padding: 20px 20px;
+  border: 2px solid rgb(245, 18, 18);
+  margin: 120px 35px;
+  background-color: #e9e8b2;
+  
+}
+
+.pharm1 img{
+ display: flex;
+  margin: 0px 80px;
+  align-items: center;
+}
+
+
+
+/* ------------------------HEALTHY LIFE HTML-------------------- */
+
+
+.hea1{
+
+  background-color: darkcyan;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -35px;
+  
+}
+
+.hea2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  background-color: #bef4ff;
+}
+ .hea2a h4{
+  margin-left: 210px;
+}
+
+.hea2a p{
+  width: 50%;
+  margin-left: 220px;
+}
+
+.hea2a img{
+float: left;
+
+
+}
